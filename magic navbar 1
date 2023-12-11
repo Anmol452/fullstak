@@ -1,0 +1,63 @@
+(* html code  *)
+  <nav>
+        <ul>
+            <li><a href="#"><ion-icon name="home-outline"></ion-icon>Home</a></li>
+            <li><a href="#"><ion-icon name="chatbubbles-outline"></ion-icon>chat</a></li>
+            <li><a href="#"><ion-icon name="person-circle-outline"></ion-icon>profile</a></li>
+            <li><a href="#"><ion-icon name="planet-outline"></ion-icon>Api</a></li>
+            <li><a href="#"><ion-icon name="cog-outline"></ion-icon>seting</a></li>
+        </ul>
+    </nav>
+
+(*     add script *)
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> (*  ionicons *) (* icon script libri*)
+    <script src="script.js"></script> 
+
+(* css *)
+body{
+    background: rgb(26, 25, 25);
+}
+
+nav{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    display: flex;
+    height:  80px;
+    border-radius: 30px;
+}
+nav ul{
+    position: relative;
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    padding: 30px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+   color: rgb(26, 25, 25);
+    
+}
+
+nav ul li a ion-icon{
+    width: 40px;
+}
+
+nav ul li:hover
+{
+    position: relative;
+    background-color: aqua;
+    top: -30px;
+    border: 6px solid black;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+
+}
